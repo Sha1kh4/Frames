@@ -52,7 +52,7 @@ def load_image_from_url(url, filename):
 
 def tweet():
     global current_frame
-    link = print_link_by_line_no('links', current_frame)
+    link = print_link_by_line_no('links.txt', current_frame)
     
     # Construct tweet text and media upload
     TWEET_TEXT = f'Frame {current_frame}'
